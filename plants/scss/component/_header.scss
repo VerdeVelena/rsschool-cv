@@ -1,0 +1,33 @@
+// .header {
+// 	background: $color-background;
+// }
+// header
+.header {
+	padding: 3.2rem 0;
+}
+
+.logo {
+	text-decoration: none;
+	& .icon_logo {
+		width: 2rem;
+		height: 2rem;
+	}
+	& .icon_text-logo {
+		height: 1.7rem;
+	}
+}
+.nav__list {
+	display: flex;
+	list-style: none;
+	padding: 0;
+	& .list {
+		padding: 0 2.1rem;
+		cursor: pointer;
+	}
+	& .section {
+		text-decoration: none;
+		&:hover {
+			color: $color-brand_light;
+		}
+	}
+}
